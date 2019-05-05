@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="todoStyles.css">
+</head>
+
+<body>
+
+    <header>
+        <h2> My To Do List</h2>
+    </header>
+
+    <div id="dataInputs">
+        <input type="text" id="name" placeholder="  TO DO" />
+        <button id="btn" onclick="saveData()">Save</button>
+        <button id="btn" onclick="clearAll()">Delete all</button>
+    </div> <br>
+    <div id="div1">
+        <h2> To Do</h2><br>
+        <ul id="storage" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </ul>
+
+    </div>
+
+
+    <div id="div2">
+        <h2> In progress</h2><br>
+        <ul id="progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </ul>
+    </div>
+
+
+    <div id="div3">
+        <h2> Done</h2><br>
+        <ul id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </ul>
+    </div>
+
+
+    <script src="todoScript.js">
+    </script>
+
+</body>
+
+</html>

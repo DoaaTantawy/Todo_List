@@ -1,0 +1,91 @@
+header {
+    background-color: slateblue;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #ffd700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #ebd596;
+}
+
+#div1,
+#div2,
+#div3 {
+    float: left;
+    width: 30%;
+    min-height: 400px;
+    margin: 10px;
+    background-color: #ebd596;
+    border-radius: 40px;
+    border: 2px solid slateblue;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #468499;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    margin-top: 20px;
+    background-color: #373642;
+}
+
+ul {
+    min-height: 400px;
+    width: 85%;
+}
+
+#btn {
+    background-color: #ffd700;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    color: #468499;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#name {
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    background-color: #ebd596;
+}
+
+#dataInputs {
+    align-content: center;
+}
+
+#div1 li {
+    color: #373642;
+    background-color: tomato;
+}
+
+#div2 li {
+    color: #373642;
+    background-color: goldenrod;
+}
+
+#div3 li {
+    color: #373642;
+    background-color: mediumseagreen;
+}
+
+@media only screen and (max-width: 700px) {
+    #div1,
+    #div2,
+    #div3 {
+        display: block;
+        width: 80%;
+        height: 400px;
+        margin: 50px;
+        border: 1px solid purple;
+    }
+}
+
+li {
+    border-radius: 20px;
+    text-align: center;
+}
